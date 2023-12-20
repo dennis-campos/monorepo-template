@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@types/eslint": "^8.44.7",
+    "@astrojs/check": "^0.3.3",
+    "@astrojs/starlight": "^0.15.1",
+    "astro": "^4.0.1",
+    "sharp": "^0.32.5",
+    "eslint": "^8.53.0",
+    "typescript": "^5.3.3"
+  }
+}
