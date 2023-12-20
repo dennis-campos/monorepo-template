@@ -17,7 +17,8 @@
     "build": "tailwindcss -i ./src/styles.css -o dist/index.css",
     "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
     "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component"
+    "generate:component": "turbo gen react-component",
+    "ui:add": "pnpm dlx shadcn-ui@latest add"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -35,5 +36,11 @@
     "tailwindcss": "^3.4.0",
     "tsup": "^8.0.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
